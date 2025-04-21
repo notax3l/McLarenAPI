@@ -1,0 +1,3 @@
+Link to the Documentation page I followed on API Ninjas :
+
+https://api-ninjas.com/api/cars
