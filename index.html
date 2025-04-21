@@ -1,22 +1,34 @@
+<!-- Basic html declartion -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Giving a title to the page -->
   <title>McLaren Car Info</title>
+  <!-- linking the style stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- main display div that will contain the entire content -->
   <div class="maindisplay">
+    <!-- Giving it a nice heading -->
     <h1>McLaren Car Info 🏁</h1>
+
+    <!-- Adding a selector to let user select the car -->
     <select id="carOptions">
-      <option value="">-- Select a McLaren Model --</option>
+        <!-- Giving 3 options -->
+      <option value="">-- McLaren of your dreams --</option>
       <option value="720S">720S</option>
       <option value="P1">P1</option>
       <option value="Senna">Senna</option>
     </select>
+
+    <!-- Button that invokes the function to fetch car info on click...main part of the code -->
     <button onclick="fetchCarInfo()">Show Info</button>
+    <!-- empty div that will conatin the details once the button is pressed after selection -->
     <div id="carDetails"></div>
   </div>
+  <!-- linking the style sheet -->
   <script src="script.js"></script>
 </body>
 </html>
